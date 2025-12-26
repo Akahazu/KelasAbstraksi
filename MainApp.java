@@ -14,9 +14,6 @@ public class MainApp {
 
         // Menampilkan output
         for (LivingThing lt : list) {
-            // Urutan output sesuai gambar:
-            // 1. Tumbuh (untuk Alice & Bob di gambar baris 1 adalah grow)
-            // Namun jika ingin persis urutan per karakter:
             if (lt instanceof Human) {
                 lt.grow();
                 lt.action();
