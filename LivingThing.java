@@ -9,7 +9,6 @@ public abstract class LivingThing {
         System.out.println(name + " is breathing.");
     }
 
-    // Metode ini wajib diimplementasikan oleh subclass terakhir
     public abstract void grow();
     public abstract void action();
 }
